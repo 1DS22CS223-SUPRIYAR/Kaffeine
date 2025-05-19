@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = 'sufiyasarwath/github-website'
+        DOCKER_IMAGE = 'sufiyasarwath/github-website@sha256:949d248af06df67c1f8426a62cd2ab344cc2b6fdf21ebb7587d7526f27ae2e2b'
     }
 
     stages {
